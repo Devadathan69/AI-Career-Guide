@@ -6,8 +6,12 @@
             "destination": "/backend/server.js"
         },
         {
-            "source": "/((?!api/.*|.*\\..*).*)",
-            "destination": "/frontend/index.html"
+            "source": "/assets/(.*)",
+            "destination": "/frontend/assets/$1"
+        },
+        {
+            "source": "/((?!api/.*).*)",
+            "destination": "/frontend/$1"
         }
     ],
     "builds": [
