@@ -71,6 +71,10 @@ const QuestionForm = ({ onComplete }) => {
                     {currentQuestion.text}
                 </h2>
 
+                <p className="text-sm text-indigo-600 dark:text-indigo-400 mb-4 italic font-medium">
+                    You can answer in English or Manglish — express freely
+                </p>
+
                 <textarea
                     width="100%"
                     rows="6"
