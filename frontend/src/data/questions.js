@@ -1,118 +1,53 @@
 const questions = [
-    // Interests & Curiosity
     {
         id: 1,
-        category: "Interests & Curiosity",
-        text: "When you are free and not forced to study, what kind of topics or activities do you naturally spend time on? Why?"
+        text: "Free time kittiyal, usually entha cheyyan aanu ishtam? (videos, games, reading, learning something new, talking to people, etc.) Why?",
+        category: "Interests (Core Signal)"
     },
     {
         id: 2,
-        category: "Interests & Curiosity",
-        text: "Describe something you learned on your own outside school just because you found it interesting."
+        text: "School-il or life-il, ‘ithu enikku easy aanu’ ennu thonniya karyam entha? Why do you think athu easy aayi?",
+        category: "Natural Strength"
     },
     {
         id: 3,
-        category: "Interests & Curiosity",
-        text: "If YouTube, Instagram, and podcasts disappeared tomorrow, what kind of content would you miss the most?"
+        text: "Enikku bore aanu / stress aakunnu ennu thonniya subjects or activities entha? Why?",
+        category: "Dislikes (Very important)"
     },
     {
         id: 4,
-        category: "Interests & Curiosity",
-        text: "What type of problems or situations make you feel curious instead of stressed?"
+        text: "Puthiya karyam padikkumbo, engane padikkunnath aanu comfortable? (Example: videos, doing it practically, reading, someone explaining)",
+        category: "Learning Style"
     },
-
-    // Strengths & Thinking Style
     {
         id: 5,
-        category: "Strengths & Thinking Style",
-        text: "Which school subjects felt easy to understand even when others struggled? Why do you think that is?"
+        text: "Problem vannal, usually engane handle cheyyum? (alone try cheyyum, Google/YouTube, friends/teachers help, trial & error)",
+        category: "Problem Style"
     },
     {
         id: 6,
-        category: "Strengths & Thinking Style",
-        text: "Describe a time when you solved a problem in your own way instead of following instructions."
+        text: "Work cheyyumbo, ottaykku cheyyunnath ishtam aano, people okke koode undenkil aano comfortable? Why?",
+        category: "People vs Alone"
     },
     {
         id: 7,
-        category: "Strengths & Thinking Style",
-        text: "Do you prefer understanding how things work or why things work? Give an example."
+        text: "Future-il job enkil, engane oru life aanu ninakku ishtam? (stable job, flexible work, creative work, high salary, low stress, etc.)",
+        category: "Life Preference"
     },
     {
         id: 8,
-        category: "Strengths & Thinking Style",
-        text: "When facing a difficult task, what do you usually do first—break it into parts, experiment, or ask for help? Why?"
+        text: "Competition, pressure, uncertainty okke kurichu ninakku engane feel cheyyunnu?",
+        category: "Risk & Pressure"
     },
-
-    // Personality & Work Preference
     {
         id: 9,
-        category: "Personality & Work Preference",
-        text: "Do you feel more energized after working alone or after interacting with people? Explain."
+        text: "Family, financial situation, location, or vere enthelum constraints undo? (honestly parayuka)",
+        category: "Constraints (Indian reality)"
     },
     {
         id: 10,
-        category: "Personality & Work Preference",
-        text: "How do you usually react when plans suddenly change or when things are uncertain?"
-    },
-    {
-        id: 11,
-        category: "Personality & Work Preference",
-        text: "Would you rather master one skill deeply or explore many different skills over time? Why?"
-    },
-
-    // Creativity & Structure
-    {
-        id: 12,
-        category: "Creativity & Structure",
-        text: "Do you enjoy following clear rules and systems, or creating your own approach? Give an example."
-    },
-    {
-        id: 13,
-        category: "Creativity & Structure",
-        text: "Have you ever created something (art, writing, code, content, solution) that made you proud? Describe it."
-    },
-
-    // Values & Motivation
-    {
-        id: 14,
-        category: "Values & Motivation",
-        text: "What matters more to you right now: money, personal interest, social impact, or recognition? Why?"
-    },
-    {
-        id: 15,
-        category: "Values & Motivation",
-        text: "Imagine yourself at age 30. What kind of life would make you feel successful?"
-    },
-
-    // Risk & Reality
-    {
-        id: 16,
-        category: "Risk & Reality",
-        text: "How comfortable are you with competition and uncertainty in your future career?"
-    },
-    {
-        id: 17,
-        category: "Risk & Reality",
-        text: "Are you willing to study for many years if the subject truly interests you? Why or why not?"
-    },
-
-    // Constraints (Indian Context)
-    {
-        id: 18,
-        category: "Constraints (Indian Context)",
-        text: "Are there any family, financial, location, or personal constraints that may affect your course choice?"
-    },
-    {
-        id: 19,
-        category: "Constraints (Indian Context)",
-        text: "Would you prefer a flexible career (freelance, remote, changing paths) or a structured one? Why?"
-    },
-
-    // Self-Reflection
-    {
-        id: 20,
-        category: "Self-Reflection",
-        text: "If you remove marks, society, and expectations, what course or path would you honestly want to explore first?"
+        text: "Society pressure, marks, relatives ellam side-il vekkumbol… ninakku honestly explore cheyyan thonniya field / course entha?",
+        category: "Honest Self-Reflection"
     }
 ];
 

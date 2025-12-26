@@ -11,7 +11,7 @@ async function analyzeResponses(answers) {
         return getMockResponse();
     }
 
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" }); // Using gemini-pro for text analysis
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }); // Using gemini-2.5-flash as per available models
 
     const prompt = buildPrompt(answers);
 

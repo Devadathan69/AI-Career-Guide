@@ -1,9 +1,9 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 const express = require('express');
 const cors = require('cors');
-const dotenv = require('dotenv');
 const { analyzeResponses } = require('./services/llm_service');
-
-dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
